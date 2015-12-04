@@ -9,15 +9,19 @@
  * For the full copyright and license information,
  * please view the LICENSE file that was distributed with this source code.
  */
-namespace WellCommerce\Bundle\SmugglerBundle\Repository;
 
-use WellCommerce\Bundle\CoreBundle\Repository\AbstractEntityRepository;
+namespace WellCommerce\Bundle\ShopBundle\DependencyInjection;
+
+use Symfony\Component\Config\FileLocator;
+use Symfony\Component\DependencyInjection\Loader;
+use WellCommerce\Bundle\CoreBundle\DependencyInjection\AbstractExtension;
 
 /**
- * Class ChannelRepository
+ * Class WellCommerceShopExtension
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class ChannelRepository extends AbstractEntityRepository implements ChannelRepositoryInterface
+class WellCommerceShopExtension extends AbstractExtension
 {
+
 }

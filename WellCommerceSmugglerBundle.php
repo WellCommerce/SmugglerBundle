@@ -10,15 +10,15 @@
  * please view the LICENSE file that was distributed with this source code.
  */
 
-namespace WellCommerce\Bundle\SmugglerBundle\Repository;
+namespace WellCommerce\Bundle\SmugglerBundle;
 
-use WellCommerce\Bundle\CoreBundle\Repository\RepositoryInterface;
+use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Interface ChannelRepositoryInterface
+ * Class WellCommerceSmugglerBundle
  *
- * @author Adam Piotrowski <adam@wellcommerce.org>
+ * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-interface ChannelRepositoryInterface extends RepositoryInterface
+class WellCommerceSmugglerBundle extends Bundle
 {
 }

@@ -4,5 +4,6 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://symfony.com/schema/routing http://symfony.com/schema/routing/routing-1.0.xsd">
 
-    <import resource="admin/channel.xml" prefix="admin/smuggler/channel"/>
+    <import resource="routing/package.xml"/>
+    <import resource="routing/channel.xml"/>
 </routes>
